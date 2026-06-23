@@ -1,0 +1,6 @@
+marks=int(input("Enter your marks:"))
+if marks>90 or marks==90 :print("Congrats! You got A Grade.")
+elif marks<90 and marks>80 :print("Well Done. You got B Grade.")
+elif marks>70 and marks<80 :print("Well Done. You got C Grade.")
+elif marks>60 and marks<70 :print("Can improve. You got D Grade.")
+else :print("FAILED")
